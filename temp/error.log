@@ -1,0 +1,72 @@
+[Fri Mar 09 11:12:25.336549 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33316] PHP Warning:  error_log(/var/www/html/shop_frame/temp/error.log): failed to open stream: Permission denied in /var/www/html/shop_frame/vendor/core/ErrorHandler.php on line 28, referer: http://shop.su/
+[Fri Mar 09 11:12:25.336570 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33316] PHP Stack trace:, referer: http://shop.su/
+[Fri Mar 09 11:12:25.336576 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33316] PHP   1. core\\ErrorHandler->exceptionHandler() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:0, referer: http://shop.su/
+[Fri Mar 09 11:12:25.336580 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33316] PHP   2. core\\ErrorHandler->logErrors() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:21, referer: http://shop.su/
+[Fri Mar 09 11:12:25.336584 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33316] PHP   3. error_log() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:28, referer: http://shop.su/
+[Fri Mar 09 11:13:19.924749 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33358] PHP Warning:  error_log(/var/www/html/shop_frame/temp/error.log): failed to open stream: Permission denied in /var/www/html/shop_frame/vendor/core/ErrorHandler.php on line 28, referer: http://shop.su/
+[Fri Mar 09 11:13:19.924762 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33358] PHP Stack trace:, referer: http://shop.su/
+[Fri Mar 09 11:13:19.924766 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33358] PHP   1. core\\ErrorHandler->exceptionHandler() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:0, referer: http://shop.su/
+[Fri Mar 09 11:13:19.924770 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33358] PHP   2. core\\ErrorHandler->logErrors() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:21, referer: http://shop.su/
+[Fri Mar 09 11:13:19.924773 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33358] PHP   3. error_log() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:28, referer: http://shop.su/
+[Fri Mar 09 11:13:28.064143 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33384] PHP Warning:  error_log(/var/www/html/shop_frame/temp/error.log): failed to open stream: Permission denied in /var/www/html/shop_frame/vendor/core/ErrorHandler.php on line 28, referer: http://shop.su/
+[Fri Mar 09 11:13:28.064155 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33384] PHP Stack trace:, referer: http://shop.su/
+[Fri Mar 09 11:13:28.064160 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33384] PHP   1. core\\ErrorHandler->exceptionHandler() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:0, referer: http://shop.su/
+[Fri Mar 09 11:13:28.064164 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33384] PHP   2. core\\ErrorHandler->logErrors() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:21, referer: http://shop.su/
+[Fri Mar 09 11:13:28.064167 2018] [php7:notice] [pid 1765] [client 127.0.0.1:33384] PHP   3. error_log() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:28, referer: http://shop.su/
+[Fri Mar 09 11:15:13.346215 2018] [php7:notice] [pid 4261] [client 127.0.0.1:33530] PHP Warning:  error_log(/var/www/html/shop_frame/temp/error.log): failed to open stream: Permission denied in /var/www/html/shop_frame/vendor/core/ErrorHandler.php on line 28, referer: http://shop.su/
+[Fri Mar 09 11:15:13.346227 2018] [php7:notice] [pid 4261] [client 127.0.0.1:33530] PHP Stack trace:, referer: http://shop.su/
+[Fri Mar 09 11:15:13.346232 2018] [php7:notice] [pid 4261] [client 127.0.0.1:33530] PHP   1. core\\ErrorHandler->exceptionHandler() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:0, referer: http://shop.su/
+[Fri Mar 09 11:15:13.346235 2018] [php7:notice] [pid 4261] [client 127.0.0.1:33530] PHP   2. core\\ErrorHandler->logErrors() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:21, referer: http://shop.su/
+[Fri Mar 09 11:15:13.346238 2018] [php7:notice] [pid 4261] [client 127.0.0.1:33530] PHP   3. error_log() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:28, referer: http://shop.su/
+[Fri Mar 09 11:16:11.561034 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33552] PHP Warning:  error_log(/var/www/html/shop_frame/temp/error.log): failed to open stream: Permission denied in /var/www/html/shop_frame/vendor/core/ErrorHandler.php on line 28, referer: http://shop.su/
+[Fri Mar 09 11:16:11.561051 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33552] PHP Stack trace:, referer: http://shop.su/
+[Fri Mar 09 11:16:11.561056 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33552] PHP   1. core\\ErrorHandler->exceptionHandler() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:0, referer: http://shop.su/
+[Fri Mar 09 11:16:11.561060 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33552] PHP   2. core\\ErrorHandler->logErrors() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:21, referer: http://shop.su/
+[Fri Mar 09 11:16:11.561063 2018] [php7:notice] [pid 1760] [client 127.0.0.1:33552] PHP   3. error_log() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:28, referer: http://shop.su/
+[Fri Mar 09 11:16:25.261167 2018] [php7:notice] [pid 1761] [client 127.0.0.1:33582] PHP Warning:  error_log(/var/www/html/shop_frame/temp/error.log): failed to open stream: Permission denied in /var/www/html/shop_frame/vendor/core/ErrorHandler.php on line 28
+[Fri Mar 09 11:16:25.261203 2018] [php7:notice] [pid 1761] [client 127.0.0.1:33582] PHP Stack trace:
+[Fri Mar 09 11:16:25.261210 2018] [php7:notice] [pid 1761] [client 127.0.0.1:33582] PHP   1. core\\ErrorHandler->exceptionHandler() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:0
+[Fri Mar 09 11:16:25.261215 2018] [php7:notice] [pid 1761] [client 127.0.0.1:33582] PHP   2. core\\ErrorHandler->logErrors() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:21
+[Fri Mar 09 11:16:25.261218 2018] [php7:notice] [pid 1761] [client 127.0.0.1:33582] PHP   3. error_log() /var/www/html/shop_frame/vendor/core/ErrorHandler.php:28
+[2018-03-12 23:24:51] Текст ошибки Нет соединения с БД | Файл: /var/www/html/shop_frame/vendor/core/Db.php |
+															Строка: 13 
+===========
+[2018-03-12 23:25:05] Текст ошибки Нет соединения с БД | Файл: /var/www/html/shop_frame/vendor/core/Db.php |
+															Строка: 13 
+===========
+[2018-03-12 23:25:48] Текст ошибки Нет соединения с БД | Файл: /var/www/html/shop_frame/vendor/core/Db.php |
+															Строка: 13 
+===========
+[2018-03-12 23:54:49] Текст ошибки Нет соединения с БД | Файл: /var/www/html/shop_frame/vendor/core/Db.php |
+															Строка: 13 
+===========
+[2018-03-12 23:55:28] Текст ошибки Нет соединения с БД | Файл: /var/www/html/shop_frame/vendor/core/Db.php |
+															Строка: 13 
+===========
+[2018-03-12 23:55:31] Текст ошибки Нет соединения с БД | Файл: /var/www/html/shop_frame/vendor/core/Db.php |
+															Строка: 13 
+===========
+[2018-03-13 00:53:44] Текст ошибки Контроллер app\controllers\PageController  не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 55 
+===========
+[2018-03-13 00:57:32] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
+[2018-03-13 01:08:33] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
+[2018-03-13 02:05:09] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
+[2018-03-13 02:05:13] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
+[2018-03-13 02:06:12] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
+[2018-03-13 02:12:42] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
+[2018-03-13 02:13:34] Текст ошибки Страница не найдена | Файл: /var/www/html/shop_frame/vendor/core/Router.php |
+															Строка: 59 
+===========
