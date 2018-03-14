@@ -24,3 +24,83 @@
 [Mon Mar 12 23:41:59.821089 2018] [autoindex:error] [pid 5480] [client 127.0.0.1:58194] AH01276: Cannot serve directory /var/www/html/shop_frame/: No matching DirectoryIndex (index.php,index.html,index.php) found, and server-generated directory index forbidden by Options directive
 [Mon Mar 12 23:49:20.546023 2018] [autoindex:error] [pid 5747] [client 127.0.0.1:58312] AH01276: Cannot serve directory /var/www/html/shop_frame/: No matching DirectoryIndex (index.php,index.html,index.php) found, and server-generated directory index forbidden by Options directive
 [Mon Mar 12 23:49:23.266202 2018] [autoindex:error] [pid 5747] [client 127.0.0.1:58312] AH01276: Cannot serve directory /var/www/html/shop_frame/: No matching DirectoryIndex (index.php,index.html,index.php) found, and server-generated directory index forbidden by Options directive
+[Wed Mar 14 07:21:38.449632 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:21:38.449698 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP Stack trace:
+[Wed Mar 14 07:21:38.513681 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:21:38.513747 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:21:38.513771 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:21:38.513788 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:21:38.513802 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:21:38.513836 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:21:38.513846 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:21:38.513854 2018] [:error] [pid 3632] [client 127.0.0.1:54987] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:23:17.570011 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:23:17.570085 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP Stack trace:
+[Wed Mar 14 07:23:17.570099 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:23:17.570108 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:23:17.570115 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:23:17.570122 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:23:17.570129 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:23:17.570136 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:23:17.570143 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:23:17.570159 2018] [:error] [pid 9444] [client 127.0.0.1:55038] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:24:49.227401 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:24:49.227469 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP Stack trace:
+[Wed Mar 14 07:24:49.227482 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:24:49.227491 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:24:49.227498 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:24:49.227505 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:24:49.227512 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:24:49.227519 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:24:49.227526 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:24:49.227534 2018] [:error] [pid 3634] [client 127.0.0.1:55050] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:26:49.605964 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:26:49.606028 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP Stack trace:
+[Wed Mar 14 07:26:49.606041 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:26:49.606049 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:26:49.606054 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:26:49.606060 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:26:49.606065 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:26:49.606071 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:26:49.606076 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:26:49.606082 2018] [:error] [pid 3633] [client 127.0.0.1:55057] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:27:54.330631 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:27:54.330693 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP Stack trace:
+[Wed Mar 14 07:27:54.330709 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:27:54.330719 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:27:54.330729 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:27:54.330739 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:27:54.330746 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:27:54.330751 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:27:54.330757 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:27:54.330764 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:27:58.475111 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:27:58.475183 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP Stack trace:
+[Wed Mar 14 07:27:58.475197 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:27:58.475206 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:27:58.475214 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:27:58.475221 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:27:58.475242 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:27:58.475249 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:27:58.475256 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:27:58.475263 2018] [:error] [pid 3636] [client 127.0.0.1:55066] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:29:07.756298 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:29:07.756367 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP Stack trace:
+[Wed Mar 14 07:29:07.756381 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:29:07.756390 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:29:07.756398 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:29:07.756405 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:29:07.756413 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:29:07.756420 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:29:07.756428 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:29:07.756435 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16
+[Wed Mar 14 07:29:12.574466 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP Fatal error:  Call to undefined method core\\Registry::getPropertiy() in /var/www/html/shop_frame/app/widgets/currency/Currency.php on line 20
+[Wed Mar 14 07:29:12.574536 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP Stack trace:
+[Wed Mar 14 07:29:12.574554 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   1. {main}() /var/www/html/shop_frame/public/index.php:0
+[Wed Mar 14 07:29:12.574625 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   2. core\\App->__construct() /var/www/html/shop_frame/public/index.php:7
+[Wed Mar 14 07:29:12.574638 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   3. core\\Router::dispatch() /var/www/html/shop_frame/vendor/core/App.php:17
+[Wed Mar 14 07:29:12.574649 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   4. core\\base\\Controller->getView() /var/www/html/shop_frame/vendor/core/Router.php:48
+[Wed Mar 14 07:29:12.574660 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   5. core\\base\\View->render() /var/www/html/shop_frame/vendor/core/base/Controller.php:42
+[Wed Mar 14 07:29:12.574670 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   6. require_once() /var/www/html/shop_frame/vendor/core/base/View.php:56
+[Wed Mar 14 07:29:12.574680 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   7. app\\widgets\\currency\\Currency->__construct() /var/www/html/shop_frame/app/views/layouts/watches.php:24
+[Wed Mar 14 07:29:12.574692 2018] [:error] [pid 9707] [client 127.0.0.1:55317] PHP   8. app\\widgets\\currency\\Currency->run() /var/www/html/shop_frame/app/widgets/currency/Currency.php:16

@@ -3,11 +3,13 @@
 namespace app\widgets\currency;
 
 
+use core\App;
+
 class Currency {
 
     protected $tpl;
-    protected $currencies;
-    protected $currency;
+    public $currencies;
+    public $currency;
 
     function __construct() {
         $this->tpl = __DIR__ . '/currency_tpl/currency.php';
@@ -15,7 +17,9 @@ class Currency {
     }
 
     protected function run(){
-        $this->getHtml();
+        $this->currencies = App::$app->getProperty('currencies');
+        $this->currency = App::$app->getProperty('currency');
+        echo $this->getHtml();
     }
 
     public static function getCurencies(){
@@ -23,6 +27,7 @@ class Currency {
         return \R::getAssoc("SELECT code, title,  symbol_left, symbol_right, value, base FROM currency ORDER BY base DESC ");
 
     }
+
     public static function getCurency($currencies){
         if (isset($_COOKIE['currency']) && array_key_exists($_COOKIE['currency'], $currencies)){
 
@@ -39,7 +44,12 @@ class Currency {
 
     }
 
-    public static function getHtml(){
+    public function getHtml(){
+
+        ob_start();
+        require_once $this->tpl;
+
+        return ob_get_clean();
 
     }
 

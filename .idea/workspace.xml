@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7405c41e-4720-4bbd-8f09-b81fbc55d83c" name="Default" comment="" />
+    <list default="true" id="7405c41e-4720-4bbd-8f09-b81fbc55d83c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AppController.php" afterPath="$PROJECT_DIR$/app/controllers/AppController.php" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/watches.php" afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/currency/Currency.php" afterPath="$PROJECT_DIR$/app/widgets/currency/Currency.php" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php" afterPath="$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php" />
+      <change beforePath="$PROJECT_DIR$/temp/error.log" afterPath="$PROJECT_DIR$/temp/error.log" />
+      <change beforePath="$PROJECT_DIR$/temp/log/access.log" afterPath="$PROJECT_DIR$/temp/log/access.log" />
+      <change beforePath="$PROJECT_DIR$/temp/log/error.log" afterPath="$PROJECT_DIR$/temp/log/error.log" />
+      <change beforePath="$PROJECT_DIR$/vendor/gabordemooij/redbean" afterPath="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,29 +39,39 @@
         <entry file="file://$PROJECT_DIR$/vendor/core/Registry.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="558">
-              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Currency.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Currency.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/widgets/currency/Currency.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="486">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding>
-                <marker date="1520575208000" expanded="true" signature="387:479" ph="SELECT code,... currency" />
+                <marker date="1521005683589" expanded="true" signature="529:621" ph="SELECT code,... currency" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/AppController.php">
+      <file leaf-file-name="currency.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watches.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -67,6 +87,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/AppController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -76,6 +106,9 @@
     <replaceStrings>
       <replace>src=&quot;/</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -106,16 +139,17 @@
         <option value="$PROJECT_DIR$/app/views/layouts/default.php" />
         <option value="$PROJECT_DIR$/vendor/core/Cache.php" />
         <option value="$PROJECT_DIR$/config/init.php" />
-        <option value="$PROJECT_DIR$/app/widgets/currency/Currency.php" />
         <option value="$PROJECT_DIR$/app/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/config/config_db.php" />
         <option value="$PROJECT_DIR$/app/views/Main/index.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/vendor/core/libs/functions.php" />
         <option value="$PROJECT_DIR$/app/controllers/AppController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/watches.php" />
+        <option value="$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php" />
+        <option value="$PROJECT_DIR$/app/widgets/currency/Currency.php" />
       </list>
     </option>
   </component>
@@ -138,7 +172,7 @@
       <path value="$PROJECT_DIR$/vendor/gabordemooij/redbean" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="28" />
     <option name="width" value="1600" />
     <option name="height" value="846" />
@@ -174,8 +208,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,18 +226,6 @@
               <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
               <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -211,7 +233,28 @@
               <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="widgets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="widgets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="currency" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shop_frame" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="widgets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="currency" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="currency_tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="shop_frame" type="b2602c69:ProjectViewProjectNode" />
@@ -295,14 +338,16 @@
       <workItem from="1520501219696" duration="3806000" />
       <workItem from="1520582319975" duration="1432000" />
       <workItem from="1520885718636" duration="7226000" />
+      <workItem from="1521003305274" duration="24000" />
+      <workItem from="1521003420898" duration="2291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65965000" />
+    <option name="totallyTimeSpent" value="68280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1600" height="846" extended-state="0" />
+    <frame x="0" y="28" width="1600" height="846" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -311,7 +356,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5024661" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.49753392" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6690224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -363,7 +408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -378,7 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -419,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="718">
           <caret line="3071" column="1" lean-forward="false" selection-start-line="3071" selection-start-column="1" selection-end-line="3071" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="271" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,15 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,15 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,33 +640,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-242">
           <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/core/Registry.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/widgets/currency/Currency.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <marker date="1520575208000" expanded="true" signature="387:479" ph="SELECT code,... currency" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,9 +661,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="378">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/currency/currency_tpl/currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/watches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/widgets/currency/Currency.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <marker date="1521005683589" expanded="true" signature="529:621" ph="SELECT code,... currency" />
+          </folding>
         </state>
       </provider>
     </entry>
